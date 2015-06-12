@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		441E6B6C1A33706600D5705D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 441E6B6B1A33706600D5705D /* main.cpp */; };
+		441E6B741A3370BC00D5705D /* Employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 441E6B721A3370BC00D5705D /* Employee.cpp */; };
+		441E6B771A33723E00D5705D /* Department.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 441E6B751A33723E00D5705D /* Department.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,12 @@
 /* Begin PBXFileReference section */
 		441E6B681A33706600D5705D /* DFox_Final_Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DFox_Final_Project; sourceTree = BUILT_PRODUCTS_DIR; };
 		441E6B6B1A33706600D5705D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		441E6B721A3370BC00D5705D /* Employee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Employee.cpp; sourceTree = "<group>"; };
+		441E6B731A3370BC00D5705D /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		441E6B751A33723E00D5705D /* Department.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Department.cpp; sourceTree = "<group>"; };
+		441E6B761A33723E00D5705D /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
+		441E6B781A337A0900D5705D /* Input.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Input.dat; sourceTree = "<group>"; };
+		441E6B791A337A9C00D5705D /* Group.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Group.dat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,12 @@
 			isa = PBXGroup;
 			children = (
 				441E6B6B1A33706600D5705D /* main.cpp */,
+				441E6B721A3370BC00D5705D /* Employee.cpp */,
+				441E6B731A3370BC00D5705D /* Employee.h */,
+				441E6B751A33723E00D5705D /* Department.cpp */,
+				441E6B761A33723E00D5705D /* Department.h */,
+				441E6B781A337A0900D5705D /* Input.dat */,
+				441E6B791A337A9C00D5705D /* Group.dat */,
 			);
 			path = DFox_Final_Project;
 			sourceTree = "<group>";
@@ -119,6 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				441E6B6C1A33706600D5705D /* main.cpp in Sources */,
+				441E6B741A3370BC00D5705D /* Employee.cpp in Sources */,
+				441E6B771A33723E00D5705D /* Department.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
